@@ -259,10 +259,53 @@ display: flex;
 
 }
 .imgContainer{
-   align-self: center;
-    margin: 10%;
+   
+ width: 85vw;
+
+     
     display: flexbox;
-    justify-content:center;
+    justify-content:space-around;
     align-items: center;
    
 }
+.Feedbacks{
+    height: 80vh;
+
+
+}
+.Feedbacks>h1{
+    margin-top: 20px;
+    align-content: center;
+    display: block;
+    text-align: center;
+}
+.Feedbacks>p{
+    width: 40vw;
+    height: max-content;
+    float: left;
+    margin: 20px;
+    font-size: 25px;
+}
+.inputBox{
+    width: 40vw;
+    height: 50%;
+    margin-left: 30px;
+    text-align: start;
+
+
+}
+.QuerySubmitBtn{
+    background-color:#09555b;
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+.Articles{
+    background-image: url(./AdobeStock_830783716_Preview.jpeg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(10px);
+}
+
