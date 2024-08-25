@@ -412,16 +412,35 @@ margin: 10px;
    
     color: azure;
 
-    
+    line-height: 30px;
     font-size: 20px;
     
 }
 .AboutUs{
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .AboutUs>*{
     width: 30vw;
     margin: 15px;
+}
+.footerLinks{
+   
+    justify-content: center;
+    align-items: center;
+    
+}
+.footerLinks>h2{
+ display: block;
+text-align: center;
+ 
+}
+.footerLinks>ul>*{
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
 }
 
 footer{
