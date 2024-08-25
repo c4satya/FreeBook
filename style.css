@@ -150,7 +150,7 @@ display: flex;
     
     background-image: url(./SearchBookBg.jpg);
    
-   
+   position: relative;
  
     padding: 0;
     background-repeat: no-repeat;
@@ -159,18 +159,21 @@ display: flex;
 
     width: 100vw;
     height: 100vh;
+    z-index: 2;
     
 
 }
-.searchBook::after{
-    background-color:rgba(0, 92, 87, 0.2);
-    width: 100%;
-    height: 100%;
+.searchBook::before {
+    content: "";
+    display: block;
     position: absolute;
     top: 0;
     left: 0;
-    
-}
+    width: 100%;
+    height: 100%;
+    background-color: rgba(3, 104, 90, 0.8); /* Change the color and opacity as needed */
+  }
+  
 .searchBook>h1{
     
     position: relative;
@@ -188,15 +191,18 @@ display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 50px;
+    z-index: 9;
        
  border: #FA8B59;
     
 }
 
 .searchVectorImg{
+    position: relative;
+    top: -5vh;
     box-sizing: content-box;
-    height: 45vw;
-    width: 45vw;
+    height: 40vw;
+    width: 40vw;
  
 }
 .SearchBtns{
@@ -204,7 +210,7 @@ display: flex;
       margin: 10px;
       padding: 10px;
      
-   
+   z-index: 9;
     
     align-items: center;
 }
@@ -263,20 +269,35 @@ display: flex;
     border-radius:50% ;
 }
 .gallery{
+    position: relative;
     height: 100vh;
     background-image: url(./galleryBg.jpg);
     background-size: cover;
-    background-color: rgb(0, 92, 87,);
+  z-index: 2;
     background-blend-mode: color;
 }
+.gallery::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    height: 100%;
+    background-color: rgba(3, 104, 90, 0.8); /* Change the color and opacity as needed */
+  }
 .gallery>h1{
+    position: relative;
+    z-index: 9;
     display: flex;
     align-self: center;
     justify-content: center;
 }
 
 .imgContainer>img{
-    
+    position: relative;
+    z-index: 9;
     height: 200px;
     width: 250px;
   margin: 10px;
@@ -332,28 +353,39 @@ margin-right: 10%;
     border-radius: 5px;
     color: whitesmoke;
 }
-.Articles::after{
-    background-color:rgba(0, 92, 87, 0.7);
-    height:100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+
 .Articles{
+    position: relative;
     background-image: url(./articleBg.jpeg);
     background-size: cover;
     height: 100vh;
     width: 100vw;
+    z-index: 2;
    
 }
-.Articles>h1{
+.Articles::before {
+    z-index: 3;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    height: 100%;
+    background-color: rgba(3, 104, 90, 0.8); /* Change the color and opacity as needed */
+  }
+.articleHead{
+    position: relative;
+    z-index: 8;
     display: block;
     text-align: center;
     align-self: center;
     margin-top: 15px;
 }
 .newsCards{
+    position: relative;
+    z-index: 7;
     width: 60vw;
     float: left;
     display: flex;
@@ -365,6 +397,24 @@ margin-right: 10%;
 width: 25vw;
 margin: 10px;
 
+}
+.impLinks{
+    z-index: 8;
+    position: relative;
+    left: 150px;
+  justify-content: center;
+
+}
+.impLinks>ul{
+    list-style-type:none;
+    padding-left: 5px;
+    text-decoration: none;
+   
+    color: azure;
+
+    
+    font-size: 20px;
+    
 }
 .AboutUs{
     display: flex;
