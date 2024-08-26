@@ -422,8 +422,39 @@ margin: 10px;
     justify-content: space-evenly;
 }
 .AboutUs>*{
+
     width: 30vw;
     margin: 15px;
+}
+.footerAddress>*{
+   
+    margin-left: 30px;
+    line-height: 15px;
+    color: rgba(0, 0, 0, 0.534);
+}
+.JoinUs>*{
+  
+  text-align: center;
+}
+.JoinUs>h2{
+    margin-top: -10px;
+    color: gray;
+}
+.inputEmail{
+    width: 70%;
+    height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #DAE8FC;
+
+}
+.emailSubmitBtn{
+    margin-left: -10px;
+    width: 70px;
+    height: 41px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #EDA534;
 }
 .footerLinks{
    
