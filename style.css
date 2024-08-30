@@ -7,6 +7,7 @@ background-color: #8ABEC1;
 width: 100vw;
  display: flex;
  flex-direction: column;
+
    
 }
 .cta{ 
@@ -27,6 +28,7 @@ box-sizing: border-box;
 .logo{
     margin-top: 30px;
     margin-left: 30px;
+    cursor: pointer;
 }
 .logo1{
     color:#09555B;
@@ -60,7 +62,8 @@ box-sizing: border-box;
     height: 30px;
     width: 30px;
     border-radius: 50%; 
-     margin:10px
+     margin:10px;
+     
 }
 .loginbtn{
    position: relative;
@@ -70,6 +73,7 @@ box-sizing: border-box;
     color: whitesmoke;
     margin-left: 5px;
     margin-right: 5px;
+    cursor: pointer;
     
     border-radius: 5px;
     background-color: #0DA4D1;
@@ -81,7 +85,7 @@ box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content:space-evenly;
-    
+    cursor: pointer;
 }
 .navBtn{
     background-color:#8ABEC1;
@@ -92,6 +96,10 @@ box-sizing: border-box;
     
     
 }
+.navBtn>a{
+    text-decoration: none;
+    color: aliceblue;
+}
 
 .donateBtn{
    
@@ -100,12 +108,12 @@ box-sizing: border-box;
     position: relative;
     right: -100px;
     top: 180px;
-    
+    cursor: pointer;
    height: 60px;
    width: 180px;
 
   
-      background-color: #09555b;
+      background-color: #095b5b;
 
    
     font-size: 30px;
@@ -127,7 +135,7 @@ display: flex;
 
 }
 .donateBtn>img{
-    background-color: #09555B;
+    background-color:none;
     height: 30px;
     width: 30px;
 
@@ -225,7 +233,7 @@ display: flex;
     justify-content: space-between;
     margin: 25px;
 
-    
+    cursor: pointer;
 
 }
 .SearchBtn>img,.filterBtn>img{
@@ -293,6 +301,8 @@ display: flex;
     display: flex;
     align-self: center;
     justify-content: center;
+    color: #ffffff;
+    text-shadow: 2px black;
 }
 
 .imgContainer>img{
@@ -339,20 +349,27 @@ margin-right: 10%;
     font-size: 25px;
 }
 .inputBox{
+    display: block;
     width: 40vw;
     height: 50%;
     margin-left: 30px;
-    text-align:top;
+    text-align: left;
+    border-radius: 5px;
 
 
 }
 .QuerySubmitBtn{
+     position: absolute;
+     margin-top:20px ;
+     right: 15%;
     background-color:#09555b;
     height: 30px;
     width: 120px;
     border-radius: 5px;
     color: whitesmoke;
+    cursor: pointer;
 }
+
 
 .Articles{
     position: relative;
@@ -382,6 +399,8 @@ margin-right: 10%;
     text-align: center;
     align-self: center;
     margin-top: 15px;
+    color: #ffffff;
+    text-shadow: black;
 }
 .newsCards{
     position: relative;
@@ -403,7 +422,7 @@ margin: 10px;
     position: relative;
     left: 150px;
   justify-content: center;
-
+  cursor: pointer;
 }
 .impLinks>ul{
     list-style-type:none;
@@ -455,6 +474,7 @@ margin: 10px;
     text-align: center;
     border-radius: 5px;
     background-color: #EDA534;
+    cursor: pointer;
 }
 .footerLinks{
    
@@ -478,4 +498,7 @@ footer{
     align-content: center;
     text-align: center;
     border: 3px solid black;
+}
+a{
+    text-decoration: none;
 }

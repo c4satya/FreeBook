@@ -19,25 +19,28 @@
                 <a><img src="./facebookIcon.png" alt="facebookIcon" class="navIcons"></a>
                 <a><img src="linkedIn.png" alt="linkedInIcon" class="navIcons"></a>
                 <a><img src="./tweeter.png" alt="tweeterIcon" class="navIcons"></a>
-                <a href=""><button class="loginbtn">Login</button>
+                <a href="./login.html"><button class="loginbtn">Login</button>
             </div>
         </div> 
         <div class="navBtns">
-            <button class="navBtn">Gallary</button></a>
-            <button class="navBtn">Search Book</button>
-            <a href="#Articles"> <button class="navBtn">Articles</button></a>
-            <button class="navBtn">Testimonails</button>
-            <button class="navBtn">About Us</button>
+            <button class="navBtn"><a href="#Gallary">Gallary</a></button>
+            <button class="navBtn"><a href="#Feedbacks">Feedbacks</a></button>
+           <button class="navBtn"><a href="#SearchBooks">Search Book</a></button>
+            <button class="navBtn"><a href="#Articles">Articles</a></button>
+           <button class="navBtn"><a href="#Testimonails">Testimonails</a></button>
+           <button class="navBtn"><a href="#AboutUs">About Us</a></button>
         </div >
         <div class="donateSection"> 
            <div class="donateTxt"><h1>Donate A Book</h1><h1>And Inspire Someone to Learn</h1><h3>A book donation is a     small act of kindness that can make a big difference</h3>
            </div>
-           <div >
-            <button class="donateBtn" type="button">Donate <img src="./bookDonateLogo.png" alt="bookDonateLogo"></button>
-           </div>
+            <a href="./DonateBook.html">
+           <div>
+            <button class="donateBtn" type="submit">Donate <img src="./bookDonateLogo.png" alt="bookDonateLogo"></button>
+           </div></a>
         </div>
     </div>
     <div class="searchBook" >
+        <a name="SearchBooks"></a>
         <h1 >Search A Book</h1>
         <div class="SearchContainer">     
                 <div >
@@ -45,11 +48,12 @@
                 </div>
                 <div class="SearchBtns">                
                     <button class="filterBtn">FILTER <img align="right" src="./filterIcon.png" alt=""></button>
-                    <button class="SearchBtn">Enter Book name/Sr.No <img align="right" src="./SearchIcon.png" alt=""></button>
+                    <input type="text" class="SearchBtn" placeholder="Enter Book name/Sr.No"><button type="submit" class="SearchBtn">Search<img align="right" src="./SearchIcon.png" alt=""></button>
                 </div>
         </div> 
     </div>
     <div class="testimonialSection" >
+        <a name="Testimonails">  </a>
         <h1 class="testimnlHeader">Testimonails</h1>
          <div class="testimonails">
            <fieldset class="testmnl Card1">
@@ -90,7 +94,9 @@
            </fieldset>
         </div>   
     </div>
-    <div class="gallery">
+   
+    <div class="gallery" >
+        <a name="Gallary">  </a>
         <h1>Gallary</h1>
         <div class="imgContainer" align="center">
            
@@ -103,19 +109,22 @@
         
 
        </div>
+      
     </div>
+  
     <div class="Feedbacks">
+        <a name="Feedbacks">  </a>
         <h1>Feedbacks</h1>
         <p>
             "We value honest feedback from our clients. Your genuine review helps us understand your experience and improve our services. We appreciate your time and honesty in sharing your thoughts with us."
         </p>
       
-            <input type="text" class="inputBox" placeholder="Write your query/review"> 
+            <textarea class="inputBox" placeholder="Write your query/review"></textarea> 
             <button  type="submit" class="QuerySubmitBtn">SUBMIT</button>
       
        
     </div>
-    <a name="Articles"><div class="Articles">
+    <a name="Articles"></a><div class="Articles">
          <h1 class="articleHead">Article&AMPNews</h1>
          <div class="newsCards">
             <div class="newsC1">
@@ -144,12 +153,13 @@
             </ul> 
          </div>
 
-    </div></a>
+    </div>
     
     <div class="AboutUs">
+     
         <div class="aboutUs">
             <div class="logo ">
-                <h1><b class="logo1">Free</b><b class="logo2">Book</b></h1>
+                <h1><b class="logo1">Free</b><b class="logo2">Book</b>   <a name="AboutUs"></a></h1>
             </div>  
             
             <div class="footerAddress">

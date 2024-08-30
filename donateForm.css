@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./donateBookBg.jpg);
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    background-color: cadetblue;
+    opacity: 0.8;
+    
+}
+body::before{
+    position: relative;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(11, 80, 68);
+}
+h1{
+    display: block;
+    text-align: center;
+    color: rgb(37, 37, 37);
+
+}
+fieldset{
+    height: 45vh;
+   
+}
+input{
+    margin-right: 25px;
+}
+label{
+    margin-left: 25px;
+    margin-right: 5px;
+}
