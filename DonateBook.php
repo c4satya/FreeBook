@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="donateForm.css">
 </head>
 <body>
+    <div class="mainContainer">
     <h1>Donate Book</h1>
-    <div>
+   
       
         <form action="" method="post">
             <Fieldset class="bookDetail">
@@ -20,10 +21,10 @@
             <input type="text">
             <label for="">Publications:</label>
             <input type="text" placeholder="Bharti Publications">
+            <br><br>
             <label for="">Subject:</label>
             <input type="text" placeholder="Mathematics">
-            <br>
-            <br>
+           
            
             <label for="">Language:</label>
             <select name="" id="">
@@ -63,11 +64,15 @@
                 <option value="">Under Graduate</option>
                 <option value="">Post Graduate</option>
             </select>
+            <br><br>
             <br>
-            <label for="" >Front Image</label>
-            <input type="image" required>
-            <label for="">Discription:</label>
-            <textarea name="" id=""></textarea>
+            <label for="" >Front Image:</label>
+            <input type="file" id="imageInput" name="image" accept="image/*" required>
+            <div class="description">
+                 <label>Description:</label>
+                 <textarea  name="" id=""></textarea>
+             </div>
+         
         </Fieldset>
         <fieldset class="donerDetail">
             <legend><h2>Doner Details</h2></legend>

@@ -1,3 +1,10 @@
+<?php 
+session_start();
+include("./backend/connect.php");
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +26,8 @@
                 <a><img src="./facebookIcon.png" alt="facebookIcon" class="navIcons"></a>
                 <a><img src="linkedIn.png" alt="linkedInIcon" class="navIcons"></a>
                 <a><img src="./tweeter.png" alt="tweeterIcon" class="navIcons"></a>
-                <a href="./login.html"><button class="loginbtn">Login</button>
+                <a href="./login.php"><button class="loginbtn">Login</button>
+                <a href="./backend/logout.php">Log Out</a>
             </div>
         </div> 
         <div class="navBtns">
@@ -33,7 +41,7 @@
         <div class="donateSection"> 
            <div class="donateTxt"><h1>Donate A Book</h1><h1>And Inspire Someone to Learn</h1><h3>A book donation is a     small act of kindness that can make a big difference</h3>
            </div>
-            <a href="./DonateBook.html">
+            <a href="./DonateBook.php">
            <div>
             <button class="donateBtn" type="submit">Donate <img src="./bookDonateLogo.png" alt="bookDonateLogo"></button>
            </div></a>

@@ -8,10 +8,11 @@
 </head>
 <body>
     <div class="container">
-        <h1>User Registration</h1>
-        <form id="registrationForm">
+        <h1>Digital Book Bank Registration</h1>
+        <form action=""></form>
+        <form id="registrationForm" action="./backend/register.php" method="post">
             <label for="fullName">Full Name:</label>
-            <input type="text" id="fullName" name="fullName" required>
+            <input type="text" id="fullName" name="name" required>
 
             <label for="email">Email Address:</label>
             <input type="email" id="email" name="email" required>
@@ -45,7 +46,7 @@
 
       
 
-            <button type="submit">Register</button>
+            <button type="submit" name="signUp">Sign Up</button>
         </form>
 
         <p>Already have an account? <a href="login.html">Log In</a></p>
