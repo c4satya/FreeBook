@@ -1,8 +1,4 @@
-<?php 
-session_start();
-include("./backend/connect.php");
 
-?>
 
 
 <!DOCTYPE html>
@@ -22,12 +18,12 @@ include("./backend/connect.php");
             </div>
             
             <div class="navBar">            
-                <a><img src="./instaIcon.png" alt="instaIcon" class="navIcons"></a>
-                <a><img src="./facebookIcon.png" alt="facebookIcon" class="navIcons"></a>
-                <a><img src="linkedIn.png" alt="linkedInIcon" class="navIcons"></a>
-                <a><img src="./tweeter.png" alt="tweeterIcon" class="navIcons"></a>
-                <a href="./login.php"><button class="loginbtn">Login</button>
-                <a href="./backend/logout.php">Log Out</a>
+                <a><img src="img/instaIcon.png" alt="instaIcon" class="navIcons"></a>
+                <a><img src="img/facebookIcon.png" alt="facebookIcon" class="navIcons"></a>
+                <a><img src="img/linkedIn.png" alt="linkedInIcon" class="navIcons"></a>
+                <a><img src="img/tweeter.png" alt="tweeterIcon" class="navIcons"></a>
+                <a href="login.php"><button class="loginbtn">Login</button>
+               <!-- <a href="./backend/logout.php">Log Out</a> -->
             </div>
         </div> 
         <div class="navBtns">
@@ -43,7 +39,7 @@ include("./backend/connect.php");
            </div>
             <a href="./DonateBook.php">
            <div>
-            <button class="donateBtn" type="submit">Donate <img src="./bookDonateLogo.png" alt="bookDonateLogo"></button>
+            <button class="donateBtn" type="submit">Donate <img src="img/bookDonateLogo.png" alt="bookDonateLogo"></button>
            </div></a>
         </div>
     </div>
@@ -52,11 +48,11 @@ include("./backend/connect.php");
         <h1 >Search A Book</h1>
         <div class="SearchContainer">     
                 <div >
-                    <img class="searchVectorImg" src="./SearchImage.png" alt="This is an image">
+                    <img class="searchVectorImg" src="img/SearchImage.png" alt="This is an image">
                 </div>
                 <div class="SearchBtns">                
-                    <button class="filterBtn">FILTER <img align="right" src="./filterIcon.png" alt=""></button>
-                    <input type="text" class="SearchBtn" placeholder="Enter Book name/Sr.No"><button type="submit" class="SearchBtn">Search<img align="right" src="./SearchIcon.png" alt=""></button>
+                    <button class="filterBtn">FILTER <img align="right" src="img/filterIcon.png" alt=""></button>
+                    <input type="text" class="SearchBtn" placeholder="Enter Book name/Sr.No"><button type="submit" class="SearchBtn">Search<img align="right" src="img/SearchIcon.png" alt=""></button>
                 </div>
         </div> 
     </div>
@@ -65,7 +61,7 @@ include("./backend/connect.php");
         <h1 class="testimnlHeader">Testimonails</h1>
          <div class="testimonails">
            <fieldset class="testmnl Card1">
-                  <legend><img src="./nancy.jpg" alt=""></legend>
+                  <legend><img src="img/nancy.jpg" alt=""></legend>
                 <div>
                     <h3>nancy</h3>
                     <h4>Londan University</h4>
@@ -77,7 +73,7 @@ include("./backend/connect.php");
            </fieldset >
            <fieldset  class="testmnl Card1">
 
-            <legend> <img src="./klara.jpg" alt=""></legend>
+            <legend> <img src="img/klara.jpg" alt=""></legend>
              <div>
                  <h3>Klara</h3>
                  <h4>Cambridge University</h4>
@@ -90,7 +86,7 @@ include("./backend/connect.php");
 
            </fieldset>
            <fieldset class="testmnl Card3">
-             <legend><img src="./david.jpg" alt=""></legend>
+             <legend><img src="img/david.jpg" alt=""></legend>
              <div>
                  <h3>David</h3>
                  <h4>SDE Google</h4>
@@ -108,12 +104,12 @@ include("./backend/connect.php");
         <h1>Gallary</h1>
         <div class="imgContainer" align="center">
            
-           <img src="./1.jpg" alt="this is image">
-           <img src="./2.jpg" alt="this is image2">
-           <img src="./3.jpg" alt="this is image3">           
-           <img src="./4.jpg" alt="this is image4">
-           <img src="./5.jpg" alt="this is image5">
-           <img src="./6.jpg" alt="this is image6">          
+           <img src="img/1.jpg" alt="this is image">
+           <img src="img/2.jpg" alt="this is image2">
+           <img src="img/3.jpg" alt="this is image3">           
+           <img src="img/4.jpg" alt="this is image4">
+           <img src="img/5.jpg" alt="this is image5">
+           <img src="img/6.jpg" alt="this is image6">          
         
 
        </div>

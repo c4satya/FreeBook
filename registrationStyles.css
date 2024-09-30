@@ -1,4 +1,4 @@
-body { background-image: url(./registrationbg.png);
+body { background-image: url(img/registrationBg.jpg);
     background-size: cover;
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -10,45 +10,51 @@ body { background-image: url(./registrationbg.png);
     max-width: 60vw;
     margin: 50px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgba(222, 226, 226,0.7);
+    backface-visibility: calc(5%);
+    background-blend-mode:color-burn;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.9);
 }
 
-h1 {
+h1  {
     text-align: center;
-    color: #333;
+    color: #000000;
 }
+.inputBox {
+    display: block;
+    margin-left: 10%;
 
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-label {
-    margin: 10px 0 5px;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="password"],
-input[type="tel"],
-select {
+      flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 80%;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
+    
 }
 
+#lbl{
+   
+   margin-left: 10%;
+}
+   
+
+
+
 button {
-    background-color: #007bff;
+    margin-left: 10%;
+    margin-top: 5px;
+     background-color: #007bff;
     color: #fff;
     border: none;
     padding: 10px;
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    width: 80%;
 }
 
 button:hover {
@@ -66,4 +72,7 @@ a:hover {
 
 p {
     text-align: center;
+}
+.tick{
+    margin-left: 10%;
 }

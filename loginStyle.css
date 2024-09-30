@@ -1,4 +1,7 @@
 body {
+    background-image: url(img/loginBg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     font-family: Arial, sans-serif;
     background-color:#006266;
     background: linear-gradient(to bottom,black);
@@ -18,11 +21,17 @@ label{
     top: 20px;
     width: 200px;
     height: 20px;
-    color: rgb(241, 241, 241);
+    color:black;
+}
+.registration>*{
+    padding: 5px;
+    
 }
 
 .login-container {
-    background: #fff;
+    background:none;
+    background-blend-mode: hue;
+    backface-visibility: calc(90%);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 20px 35px rgba(0, 0, 1, 0.9);
